@@ -1,0 +1,85 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It made the process of comparing files a lot easier, since I did not need to manually look through each and every line
+ and character to figure out where a difference, no matter how small, was. It outputed the lines for me, which
+ contained the differences, and it was a matter of looking just at those lines to figure out where the differences
+ were. It provides so much convenience, such that finding differences would not be much of a hassle.
+
+Also, I LOVE GIT.
+
+
+How could having access to the entire history of a file make you a more efficient programmer in the long term?
+
+By having all the previous versions of a file saved, you can easily check and restore a previous version if needed, like
+ for example, say that there is a bug in a newer version and you want to figure out where it is by comparing the newer
+ version with an older one, or if there was a feature that was only in an older version that was erased in a newer
+ version and you want to bring it back, or if you just want to look back and reminisce at how far a program has come.
+
+Also, it makes me more aware of what I'm doing by having me keep track of version histories and that revisions are
+ constantly being saved.
+
+
+ What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having
+  versions automatically saved, like Google docs does?
+
+ I've had a lot of experience using Google docs, and what I find annoying is that when there is a large version history,
+  and I want to look through to see what each version entails, I have no idea what the differences are until I manually
+  find them after looking at each version. Each version does not have any notes that would otherwise allow me to
+  differentiate versions easily. This is what commits would allow me to do. It gives me the freedom to save whenever I
+  want to and provide a commit for each save, for easier reference later on. However, this could give me too much
+  freedom in that I could commit too much or too little than necessary. I could also forget to save once in a while,
+  and would as a result forget what I had changed before the save. It's all about finding that right balance.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like
+ Google Docs, treat each file separately?
+
+Git was made for programmers, and programmers may have multiple files that could be grouped together into a single
+ program. That is, different files may interact with each other, where changes to one file may affect another file.
+For Google Docs, files may not necessarily be able to interact with each other, so verison control only tracks each
+ file independently.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log gives you a whole list of commits, each labeled with the commit ID, author, date, and message. git log --stat
+ allows you to see more information about each commit, such as the files that were modified, and how many insertions
+ and deletions there were.
+git diff allows you to compare the differences (hence diff) between two different commits of the same file. It shows 
+ where deletion and insertions were as well as what was deleted and inserted. 
+The syntax is git diff <commit old ID> <commit new ID>
+For both, you can scroll down the list to see more commits, copy and paste by right clicking, and you can quit either
+ by pressing q.
+git clone allows you to copy an entire Git repository, including the history, from an online source onto your own
+ computer.
+
+
+
+How might using version control make you more confident to make changes that could break something?
+
+As shown in the example done in the class, where we had to look through the Asteroids version history to figure out 
+ what caused a shooting bug, with version control we can look back at each commit and see which commit introduced the
+ bug. This allows us to rather quickly identify the source of where the bug happened, and then make the necessary fixes
+ to clear the bug.
+Increases confidence in trying new things out with the code because if the program gets broken, you can always revert
+ back to a previous version before the bug was introduced.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use git to store version histories for the small coding assignments and projects that I end up doing, (1)
+ to practice using git regularly and (2) to allow version history to be used as a future reference for in case 
+ something goes wrong in the code and I can easily look back to figure out where the issue was. This would ultimately
+ allow me to experiment more often while feeling confident that I can always go back to a previous version that had
+ no problems.
+
+
+Differences between copy and clone:
+
+Use git clone to copy an online repository onto your computer. When cloning, the history of changes (i.e. commit
+ history) to the directory is copied. git clone only works on a Git repository.
+Copy a directory using scp ("secure copy"). This can be done on any directory.
+
+When altering a copied directory or cloned repository, the changes do not affect the original.
+
+When copying a directory and cloning a repository, the state (save points) of every file is copied.
