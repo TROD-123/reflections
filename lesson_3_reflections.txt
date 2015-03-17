@@ -10,3 +10,18 @@ Why might you want to always pull changes manually rather than having Git automa
 
 If pushes and pulls are done manually, this allows the user more control over the states of his files, especially if
  there are commits that other contributors have submitted onto GitHub.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are copied repositories from another's directory on GitHub to your own. Unless you have permissions to modify the
+ origin file, modifications to your fork leave the origin file unmodified from your end. Forking is useful if you want
+ to make some changes on someone else's repository on your own computer through cloning, without having to make any
+ changes to the original repo. Forks are only created on the GitHub interface, and become a user's repo which can be
+ accessed on a user's local machine.
+
+Clones are copies of a repository from GitHub to a local machine, but can also be copies of a repository made on a 
+ local machine. Like forks, clones copy all history and states of the original repo.
+
+Branches occur only on the local level, allowing separate "streams" of commits to be applied on a repository, which
+ later can be merged into a master branch.
