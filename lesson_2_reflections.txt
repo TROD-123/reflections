@@ -19,3 +19,10 @@ Briefly, the working directory is the directory that contains the files in the r
  it exists between the working directory and the repository and only exists temporarily. The files of the staging area
  enter the staging area through git add, which afterwards gets worked on, and finally leaves the staging area through
  committing the changes done while the files were in the staging area.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I control what I put in the staging area and keep track of what I want to change per job. I can control which files I
+ would want to modify for a single commit, instead of having all the files in the "staging area" and then losing track
+ of what I really need to modify.
