@@ -7,3 +7,15 @@ Initialize a repository in Git Bash using the git init command in the folder in 
 
 Creating a repository allows you to use version control for your own files, creating commits and saving and tracking
  different versions of your file. Without this, you can not really use Git for your own programs.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is like your canvas on which you do your work. You get your materials from the artist's palette, that
+ is the working directory, and you screenshot your work by committing those changes/work that you've done on your
+ canvas, that is the staging area. 
+Briefly, the working directory is the directory that contains the files in the repository, and the staging area contains
+ the files that you work on whose changes you would put in a single commit. The staging area is an area of liminality;
+ it exists between the working directory and the repository and only exists temporarily. The files of the staging area
+ enter the staging area through git add, which afterwards gets worked on, and finally leaves the staging area through
+ committing the changes done while the files were in the staging area.
