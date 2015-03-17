@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Initialize a repository in Git Bash using the git init command in the folder in which you want to create a git 
+ repository (a hidden folder called .git is created in that folder, containing information about the repository). Run
+ git status to see the status of your repository, which presents information about the master, the initial commit, and
+ tracked and untracked files.
+
+Creating a repository allows you to use version control for your own files, creating commits and saving and tracking
+ different versions of your file. Without this, you can not really use Git for your own programs.
