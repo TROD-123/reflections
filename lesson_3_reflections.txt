@@ -25,3 +25,9 @@ Clones are copies of a repository from GitHub to a local machine, but can also b
 
 Branches occur only on the local level, allowing separate "streams" of commits to be applied on a repository, which
  later can be merged into a master branch.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+An obvious benefit is that Git can keep track of where the last push and pull took place from GitHub to the local
+ directory.
