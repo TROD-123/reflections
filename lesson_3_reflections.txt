@@ -1,5 +1,12 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
-A remote repository could be used if you are using a computer that is not your local computer, e.g. in the library. You could
- always then pull your new work from GitHub onto your own computer, so that everything is in one place saved in a local area,
- useful for if you do not have any internet access.
+A remote repository could be used if you are using a computer that is not your local computer, e.g. in the library. You 
+ could always then pull your new work from GitHub onto your own computer, so that everything is in one place saved in a
+ local area, useful for if you do not have any internet access.
+
+
+Why might you want to always pull changes manually rather than having Git automatcally stay up-to-date with your 
+ remote repository?
+
+If pushes and pulls are done manually, this allows the user more control over the states of his files, especially if
+ there are commits that other contributors have submitted onto GitHub.
