@@ -26,3 +26,13 @@ How can you use the staging area to make sure you have one commit per logical ch
 I control what I put in the staging area and keep track of what I want to change per job. I can control which files I
  would want to modify for a single commit, instead of having all the files in the "staging area" and then losing track
  of what I really need to modify.
+
+
+What are some situations when branches would be useful in keeping your history organized? How would branches help?
+
+Branches are useful for making and testing out new features on the side while also maintaining the original code
+ for bugs and other smaller fixes and for keeping a working demo of current progres without the new feature, which may
+ not be 100% ready yet.
+By default, you are in the master branch. Other branches you use can be renamed. In the end, you can choose to merge
+ your branches when your tested features work out.
+Useful for "context switching".
