@@ -45,3 +45,9 @@ Diagrams help see how the branches are layed out and can help keep track of whic
  is connected with the other commits.
 Can view a rough diagram of branches in git using the command git log --graph (--oneline) (branch1) (branch2) (etc.).
 The end of a branch is called the "tip".
+
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+P: faster, easier, much more streamlined
+C: conflict resolutions, merge conflicts, ambiguity
