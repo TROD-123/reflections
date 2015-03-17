@@ -35,4 +35,13 @@ Branches are useful for making and testing out new features on the side while al
  not be 100% ready yet.
 By default, you are in the master branch. Other branches you use can be renamed. In the end, you can choose to merge
  your branches when your tested features work out.
-Useful for "context switching".
+Useful for "context switching"
+
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help see how the branches are layed out and can help keep track of which commits are on which branch, and 
+ whether a commit is connected to a particular branch, i.e. whether a commit is "reachable". It can show how each commit
+ is connected with the other commits.
+Can view a rough diagram of branches in git using the command git log --graph (--oneline) (branch1) (branch2) (etc.).
+The end of a branch is called the "tip".
