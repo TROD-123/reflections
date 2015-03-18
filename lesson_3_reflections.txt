@@ -31,3 +31,23 @@ What is the benefit of having a copy of the last known state of the remote store
 
 An obvious benefit is that Git can keep track of where the last push and pull took place from GitHub to the local
  directory.
+
+
+How would you collaborate with using Git or GitHub? What would be easier, and what would be harder?
+
+Without either of these two software, collaborations would definitely be harder since the two are connected and they
+ interact with each other, and with users using it, its so integrative of everyone's changes and can keep things
+ organized. Local users can see what their collaborators have submitted to their repository on GitHub, whether they are
+ changes to the master branch itself, or an "experimental" change to another branch, and can decide to view those
+ changes directly onto their computer and try to merge those changes onto the master branch if needed. With GitHub,
+ communication about pull requests (or merge requests) are easily possible and so integrated, making this convenient.
+ So, it is definitely easy to collaborate using Git or GitHub. However, mind that I do not know other software that
+ would allow for this sort of collaborative effort.
+
+Also, GitHub allows users to examine others repositories by forking them, and then cloning them onto their own local
+ directory. What's more, thanks to GitHub allowing for open source projects, users can modify these projects for their
+ own use and experimentation, and request that any of these changes be merged with the original repository. 
+
+GitHub is all about collaboration, but it can also be very useful for individual use, for the user to keep track of his
+ or her version history, as well as try some experimentations of new features on another workspace than on the master
+ branch.
