@@ -30,7 +30,8 @@ Branches occur only on the local level, allowing separate "streams" of commits t
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 An obvious benefit is that Git can keep track of where the last push and pull took place from GitHub to the local
- directory.
+ directory. This allows one to compare the changes that were made on the remote repository from the changes one
+ made in the local repository
 
 
 How would you collaborate with using Git or GitHub? What would be easier, and what would be harder?
