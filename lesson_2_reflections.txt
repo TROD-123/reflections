@@ -50,4 +50,4 @@ The end of a branch is called the "tip".
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
 
 P: faster, easier, much more streamlined
-C: conflict resolutions, merge conflicts, ambiguity!
+C: conflict resolutions, merge conflicts, ambiguity
