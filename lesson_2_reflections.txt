@@ -27,6 +27,12 @@ I control what I put in the staging area and keep track of what I want to change
  would want to modify for a single commit, instead of having all the files in the "staging area" and then losing track
  of what I really need to modify.
 
+ After I make a change, I would add it to the staging area. This is the point where it would be ready to be
+  committed. However, if I make another change to the same file, the staging area will not reflect that change until
+  I re-add the file to the staging area. But, I would probably want to commit the first change first before adding
+  the file back to the staging area. Ultimately, this may motivate me or allow me to see that I should make one
+  commit per logical change.
+
 
 What are some situations when branches would be useful in keeping your history organized? How would branches help?
 
@@ -50,4 +56,4 @@ The end of a branch is called the "tip".
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
 
 P: faster, easier, much more streamlined
-C: conflict resolutions, merge conflicts, ambiguity
+C: conflict resolutions, merge conflicts, ambiguity!
